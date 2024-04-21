@@ -17,7 +17,10 @@ div {
 }
 
 p {
+    margin: auto;
     text-align: left;
+    width: 70%;
+    padding: 10px;
 }
 
 h2 {
