@@ -1,11 +1,13 @@
-# Yksinkertainen tehtävälista
+# Finnkino Info - Elokuvateattereiden esitykset pääkaupunkiseudulla
 
-Tämä on verkkosivu jonka toteutin kurssia **"Web-sovellusten kehittäminen Javascriptillä TO00BL10-3022"** ja sen ensimmäistä projektia, **"Projekti 1: DOM-skriptaus"** varten.
+Tämä on verkkosivu jonka toteutin kurssia **"Web-sovellusten kehittäminen Javascriptillä TO00BL10-3022"** ja sen toista projektia, **"Projekti 2: AJAX-sovellus REST APIa hyödyntäen"** varten.
 
-Verkkosivulla on yksinkertainen tehtävälista (todo-lista) joka on toteutettu käyttäen HTML:ää, CSS:ää ja JavaScriptiä. Verkkosivulla on kenttä, johon voi kirjoittaa haluamaansa tekstiä, jonka jälkeen painamalla "Lisää", teksti lisätään alla olevaan tehtäväluetteloon.
+Verkkosivu sallii käyttäjän hakea tietoja Finnkinon elokuvateattereiden esityksistä pääkaupunkiseudulla, käyttäen Finnkinon API:a osoitteista https://www.finnkino.fi/xml/TheatreAreas/ ja https://www.finnkino.fi/xml/Schedule/.
 
-Tehtävät tallentuvat localStorageen, ja sivun latautuessa tehtävälista ladataan localStoragesta. Tehtäviä voi yksitellen poistaa tai merkitä valmiiksi niin, että tiedot tallentuvat paikallisesti.
+Verkkosivulla on toteutettu käyttäen HTML:ää, CSS:ää ja JavaScriptiä. Verkkosivulla on pudotusvalikko, josta voi valita alueen tai teatterin, jonka esitykset halutaan nähdä. Sivusto hakee listan alueista ja teattereista heti sivuston latautuessa.
 
-Verkkosivulla on painike, josta painamalla voi poistaa kerralla kaikki luodut tehtävät.
+Kun käyttäjä valitsee listasta alueen/teatterin, verkkosivu hakee tuoreimmat tiedot Finnkinon aikataulusta ja esittää ne käyttäjälle. Esitykset näytetään siten, että aikaisimmat esitykset näytetään ensin. Sivusto kertoo kuinka monta esitystä löydettiin.
 
-Sallittut merkkijonopituudet ovat minimissään 1 ja maksimissaan 100. Puolipistemerkki ei ole sallittu.
+Käyttäjä voi valita alueen tai teatterin uudestaan, jolloin sivusto poistaa vanhat esitystiedot ja hakee uudet.
+
+Sivusto ainoastaan hakee pääkaupunkiseudun Finnkino-teattereiden tietoja, koska Finnkinon API ei sisällä pääkaupunkiseudun ulkopuolella olevien teattereiden esitystietoja.
