@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    min-width: 250px;
+  }
+
+* {
+    color: white;
+    background-color: #1a1717;
+    font-family: sans-serif;
+}
+
+div {
+    margin: auto;
+    text-align: center;
+    width: 60%;
+    padding: 20px;
+}
+
+p {
+    text-align: left;
+}
+
+h2 {
+    color: goldenrod;
+}
+
+.centertext {
+    text-align: center;
+}
+
+img {
+    border: 5px solid #555;
+  }

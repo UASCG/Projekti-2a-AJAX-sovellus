@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finnkino Info</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <div>
+        <h2>Finnkino Info</h2>
+        <p class="centertext">Tältä sivustolta näet Finnkino-teattereiden tulevat esitykset pääkaupunkiseudulla.<br>Valitse elokuvateatteri tai alue valikosta, niin näet tulevat esitykset.</p>
+    </div>
+    <div>
+        <form id="theatreForm">
+            <label for="theatre">Valitse teatteri</label>
+            <select id="theatreSelect" name="theatre" id="theatre" onchange="requestSchedule()">
+            </select>
+        </form>
+        <p class="centertext" id="movieTicker"></p> <!-- Used for displaying area/theatre and number of found screenings -->
+    </div>
+
+    <div id="divmovieinfo"> <!-- Movie info goes here upon request -->
+
+    </div>
+
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
