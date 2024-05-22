@@ -1,6 +1,6 @@
 # Finnkino Info - Elokuvateattereiden esitykset pääkaupunkiseudulla
 
-Tämä on verkkosivu jonka toteutin kurssia **"Web-sovellusten kehittäminen Javascriptillä TO00BL10-3022"** ja sen toista projektia, **"Projekti 2: AJAX-sovellus REST APIa hyödyntäen"** varten.
+Tämä on verkkosivu jonka toteutin kurssia **"Web-sovellusten kehittäminen Javascriptillä TO00BL10-3022"** ja sen toista projektia, **"Projekti 2a: AJAX-sovellus REST APIa hyödyntäen"** varten.
 
 Verkkosivu sallii käyttäjän hakea tietoja Finnkinon elokuvateattereiden esityksistä pääkaupunkiseudulla, käyttäen Finnkinon API:a osoitteista https://www.finnkino.fi/xml/TheatreAreas/ ja https://www.finnkino.fi/xml/Schedule/.
 
